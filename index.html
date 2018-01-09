@@ -1,53 +1,24 @@
 <!-- This page was last generated on 2018-01-08 -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>grin</title>
+<link rel="icon" type="image/png" href="./images/favicon.png">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/dottydoc.css">
+<link rel="stylesheet" href="./css/color-brewer.css">
+<link rel="stylesheet" href="./css/animate.css">
+<link rel="stylesheet" href="./css/default.css">
+</head>
+<body>
 
-        <title>grin</title>
-
-        <link rel="icon" type="image/png" href="./images/favicon.png">
-
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-        <link
-            rel="stylesheet"
-            href="./css/bootstrap.min.css"
-        >
-
-        <link
-            rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        >
-
-        <link
-            rel="stylesheet"
-            href="./css/dottydoc.css"
-        >
-
-        <link
-            rel="stylesheet"
-            href="./css/color-brewer.css"
-        >
-
-
-        <link
-            rel="stylesheet"
-            href="./css/animate.css"
-        >
-
-        <link
-            rel="stylesheet"
-            href="./css/default.css"
-        >
-
-    </head>
-    <body>
-
-        <div id="content">
-    <div class="page teal exactly-one-page">
+<div id="content">
+  <div class="page teal exactly-one-page">
     <div id="header">
         <nav class="nav nav-pills">
             <li class="nav-item">
@@ -118,8 +89,8 @@
                 </div>
             </div>
         </nav>
-    </div>
-    <div class="scala-logo-container">
+      </div>
+      <div class="scala-logo-container">
         <p><img src="./images/grin_logo.svg" alt="image" /></p>
         <div class="centered-subtitle">
             <h1 id="dotty">grin</h1>
@@ -136,12 +107,11 @@
                 </i>
             </a>
         </div>
+      </div>
     </div>
-</div>
-
 
     <div class="page blue">
-    <div class="centered questions">
+      <div class="centered questions">
 
         <h1 id="getting-started">Get grin</h1>
         <p>If you are a Mac user, you can install grin with <a href="https://brew.sh/">brew</a>:</p>
@@ -166,19 +136,19 @@
         <pre class="sourceCode bright"><code>grin wallet <a href="https://mimblewimble.github.io/grin-local/grin-wallet-listen">-e listen</a></code></pre>
 
         <p>For documentation see the <a href="https://github.com/mimblewimble/docs/">grin docs</a>.</p>
-    </div>
-    <div class="centered-subtitle">
-        <a href="#features">
+      </div>
+      <div class="centered-subtitle">
+        <a href="#so-features">
             <i id="scroll-down-arrow" class="animated infinite pulse material-icons">
                 expand_more
             </i>
         </a>
+      </div>
     </div>
-</div>
 
     <div class="page teal">
-    <div class="centered questions">
-        <h1 id="features">Features?</h1>
+      <div class="centered questions">
+        <h1 id="so-features">Features?</h1>
         <div class="centered-table">
             <table>
                 <colgroup>
@@ -281,42 +251,42 @@
             <p>That’s great! We have more details on the <a href="https://github.com/mimblewimble/docs">docs</a> and please join our <a href="https://gitter.im/mimblewimble/grin">Gitter channel</a>!</p>
         </div>
         <br/>
+      </div>
     </div>
-</div>
 
 
-</div>
+  </div>
 
-        <script src="./js/jquery.min.js"></script>
-        <script src="./js/tether.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/tether.min.js"></script>
+  <script src="./js/highlight.pack.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
 
-        <script src="./js/elasticlunr.min.js"></script>
+  <script src="./js/elasticlunr.min.js"></script>
 
-        <script src="./js/search.js"></script>
+  <script src="./js/search.js"></script>
 
-        <script src="./js/scrollreveal.min.js"></script>
+  <script src="./js/scrollreveal.min.js"></script>
 
-        <script src="./js/index.js"></script>
+  <script src="./js/index.js"></script>
 
-        <script>
-            $(document).ready(function() {
-                $('pre code').each(function(i, block) {
-                    hljs.highlightBlock(block);
-                });
+  <script>
+      $(document).ready(function() {
+          $('pre code').each(function(i, block) {
+              hljs.highlightBlock(block);
+          });
 
-                if (window.location.hash.length > 0) {
-                    window.scrollTo(0, $(window.location.hash).offset().top - 90);
-                }
-            });
-        </script>
+          if (window.location.hash.length > 0) {
+              window.scrollTo(0, $(window.location.hash).offset().top - 90);
+          }
+      });
+  </script>
 
-        <script>
-          ((window.gitter = {}).chat = {}).options = {
-            room: 'mimblewimble/grin'
-          };
-        </script>
-        <noscript src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></noscript>
-    </body>
+  <script>
+    ((window.gitter = {}).chat = {}).options = {
+      room: 'mimblewimble/grin'
+    };
+  </script>
+  <noscript src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></noscript>
+</body>
 </html>
